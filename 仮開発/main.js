@@ -51,6 +51,8 @@ let mapRow;
 
 let initialPlayerAngle;
 
+
+
 let soundBGM;
 let soundCollision;
 let soundDraggingBox;
@@ -582,6 +584,34 @@ function checkKeyAndMove() {
         }
     }
 	}
+
+function MoveLeft() {
+	gKey[ 37 ] = true;
+	setTimeout(() => {
+        gKey[ 37 ] = false;
+    }, 100);
+}
+
+function MoveUp() {
+	gKey[ 38 ] = true;
+	setTimeout(() => {
+        gKey[ 38 ] = false;
+    }, 100);
+}
+
+function MoveRight() {
+	gKey[ 39 ] = true;
+	setTimeout(() => {
+        gKey[ 39 ] = false;
+    }, 100);
+}
+
+function MoveDown() {
+	gKey[ 40 ] = true;
+	setTimeout(() => {
+        gKey[ 40 ] = false;
+    }, 100);
+}
 
 //	キー入力処理(上下左右)　この関数長すぎるから別のモジュールに移管したほうが良い
 function TickField()	{
