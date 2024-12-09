@@ -1,0 +1,15 @@
+.dotgothic16-regular {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#gameDisplay {
+  position: absolute; /* 座標指定が可能になる */
+  left: 100px; /* x座標を指定 */
+  top: 50px; /* y座標を指定 */
+  width: 800px; /* キャンバスの幅 */
+  height: 600px; /* キャンバスの高さ */
+  border: 1px solid black; /* キャンバスの境界線 */
+}
+
