@@ -1,4 +1,5 @@
 "use strict";
+//Superhello world(‚ ‚³‚¢)
 
 // BGM‚ÌÄ¶ó‘Ô‚ğ•Û‚·‚é•Ï”
 let isBgmPlaying = false;

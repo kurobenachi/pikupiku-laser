@@ -1,5 +1,6 @@
 "use strict";
-
+//Hello world(あさい)
+//	你好！yometemasuka
 /*
 declare variables and constants
 */
@@ -266,8 +267,6 @@ function DrawSprite(g, x, y, idx) {
         DrawSprite.pikupikuOrder++; // 次のピクピクンに進む
     }
 }
-
-
 //	レーザー表示
 function DrawLaser() {
     
@@ -287,7 +286,7 @@ function WmPaint()	{
 function WmSize()	{
 	const ca = document.getElementById("gameDisplay");	//	gameDisplayのcanvasを取得
 	ca.width = window.innerWidth;					//	 canvasの横幅をウィンドウ幅に変更
-	ca.height = window.innerHeight;					//	 canvasの縦幅をウィンドウ幅に変更
+	ca.height = window.innerHeight - 100;					//	 canvasの縦幅をウィンドウ幅に変更
 
 	const g = ca.getContext("2d");				//	2D描画コンテキスト取得
 	g.imageSmoothingEnabled = g.msImageSmoothingEnabled = false;	//	  ドット絵に対するアンチエイリアスを消す

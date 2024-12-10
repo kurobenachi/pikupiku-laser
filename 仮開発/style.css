@@ -5,8 +5,8 @@
 }
 
 .buttonCross {
-  width: 90px;
-  padding: 20px;
+  width: 30px;
+  padding: 10px;
   box-sizing: border-box;
   cursor: pointer;
 }
